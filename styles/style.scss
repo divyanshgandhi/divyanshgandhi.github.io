@@ -3,52 +3,55 @@ $theme-colors: ("primary": #FF0000,
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-#hero{
-    background: #A0A0A0;
+#hero {
+    background: #D0D0D0;
     background-image: url("../images/full.png");
     background-size: cover;
     height: 100vh;
 }
 
-#hero-ver{
-    background: #A0A0A0;
+#hero-ver {
+    background: #D0D0D0;
     background-image: url("../images/full-vertical.png");
     background-size: cover;
 }
 
-body{
-    background: #A0A0A0;
+body {
+    background: #D0D0D0;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-.hello{
+.hello {
     height: 64px;
     width: 64px;
     animation: helloAnimation 1s ease 0s infinite normal none;
 }
 
-#content{
+#content {
     animation: fadeUpAnimation 1s ease 0s normal none;
 }
 
 @keyframes helloAnimation {
-    0.0%{
+    0.0% {
         transform: rotate(5deg);
     }
-    100%{
+
+    100% {
         transform: rotate(5deg);
     }
-    50.3%{
+
+    50.3% {
         transform: rotate(-5deg);
     }
 }
 
 @keyframes fadeUpAnimation {
-    0.0%{
+    0.0% {
         transform: translate(0, 2.5%);
         opacity: 0;
     }
-    100%{
+
+    100% {
         transform: translate(0, 0);
     }
 }
