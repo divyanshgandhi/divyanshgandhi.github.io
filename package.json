@@ -12,7 +12,10 @@
   "dependencies": {
     "bootstrap": "^4.5.0",
     "jquery": "^3.5.1",
-    "parcel": "^1.12.4",
+    "parcel": "^2.16.4",
     "popper": "^1.0.1"
+  },
+  "overrides": {
+    "serialize-javascript": ">=7.0.4"
   }
 }
